@@ -94,6 +94,56 @@ namespace BC_CSharp
                         } while (a == "S" || a == "s");
                         break;
 
+                    case 1008:
+                        do
+                        {
+                            Console.WriteLine("\nPROBLEMA 1008 - SALARIO:");
+                            B1008.PMain();
+                            Repetir(0);
+                            a = Convert.ToString(Console.ReadLine()); //NULL
+                        } while (a == "S" || a == "s");
+                        break;
+
+                    case 1009:
+                        do
+                        {
+                            Console.WriteLine("\nPROBLEMA 1009 - SALARIO COM BONUS:");
+                            B1009.PMain();
+                            Repetir(0);
+                            a = Convert.ToString(Console.ReadLine()); //NULL
+                        } while (a == "S" || a == "s");
+                        break;
+
+                    case 1010:
+                        do
+                        {
+                            Console.WriteLine("\nPROBLEMA 1010 - CALCULO SIMPLES:");
+                            B1010.PMain();
+                            Repetir(0);
+                            a = Convert.ToString(Console.ReadLine()); //NULL
+                        } while (a == "S" || a == "s");
+                        break;
+
+                    case 1011:
+                        do
+                        {
+                            Console.WriteLine("\nPROBLEMA 1011 - ESFERA:");
+                            B1011.PMain();
+                            Repetir(0);
+                            a = Convert.ToString(Console.ReadLine()); //NULL
+                        } while (a == "S" || a == "s");
+                        break;
+
+                    case 1012:
+                        do
+                        {
+                            Console.WriteLine("\nPROBLEMA 1012 - AREA:");
+                            B1012.PMain();
+                            Repetir(0);
+                            a = Convert.ToString(Console.ReadLine()); //NULL
+                        } while (a == "S" || a == "s");
+                        break;
+
                     default:
                         Console.WriteLine("VALOR INVALIDO");
                         break;
