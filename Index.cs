@@ -144,6 +144,46 @@ namespace BC_CSharp
                         } while (a == "S" || a == "s");
                         break;
 
+                    case 1013:
+                        do
+                        {
+                            Console.WriteLine("\nPROBLEMA 1013 - O MAIOR:");
+                            B1013.PMain();
+                            Repetir(0);
+                            a = Convert.ToString(Console.ReadLine()); //NULL
+                        } while (a == "S" || a == "s");
+                        break;
+
+                    case 1014:
+                        do
+                        {
+                            Console.WriteLine("\nPROBLEMA 1014 - CONSUMO:");
+                            B1014.PMain();
+                            Repetir(0);
+                            a = Convert.ToString(Console.ReadLine()); //NULL
+                        } while (a == "S" || a == "s");
+                        break;
+
+                    case 1015:
+                        do
+                        {
+                            Console.WriteLine("\nPROBLEMA 1015 - DISTANCIA ENTRE DOIS PONTOS:");
+                            B1015.PMain();
+                            Repetir(0);
+                            a = Convert.ToString(Console.ReadLine()); //NULL
+                        } while (a == "S" || a == "s");
+                        break;
+
+                    case 1016:
+                        do
+                        {
+                            Console.WriteLine("\nPROBLEMA 1016 - DISTANCIA:");
+                            B1016.PMain();
+                            Repetir(0);
+                            a = Convert.ToString(Console.ReadLine()); //NULL
+                        } while (a == "S" || a == "s");
+                        break;
+
                     default:
                         Console.WriteLine("VALOR INVALIDO");
                         break;
