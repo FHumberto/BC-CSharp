@@ -184,6 +184,46 @@ namespace BC_CSharp
                         } while (a == "S" || a == "s");
                         break;
 
+                    case 1017:
+                        do
+                        {
+                            Console.WriteLine("\nPROBLEMA 1017 - GASTO DE COMBUSTIVEL:");
+                            B1017.PMain();
+                            Repetir(0);
+                            a = Convert.ToString(Console.ReadLine()); //NULL
+                        } while (a == "S" || a == "s");
+                        break;
+
+                    case 1018:
+                        do
+                        {
+                            Console.WriteLine("\nPROBLEMA 1018 - CEDULAS:");
+                            B1018.PMain();
+                            Repetir(0);
+                            a = Convert.ToString(Console.ReadLine()); //NULL
+                        } while (a == "S" || a == "s");
+                        break;
+
+                    case 1019:
+                        do
+                        {
+                            Console.WriteLine("\nPROBLEMA 1019 - CONVERSÃO DE TEMPO:");
+                            B1019.PMain();
+                            Repetir(0);
+                            a = Convert.ToString(Console.ReadLine()); //NULL
+                        } while (a == "S" || a == "s");
+                        break;
+
+                    case 1020:
+                        do
+                        {
+                            Console.WriteLine("\nPROBLEMA 1020 - IDADE:");
+                            B1020.PMain();
+                            Repetir(0);
+                            a = Convert.ToString(Console.ReadLine()); //NULL
+                        } while (a == "S" || a == "s");
+                        break;
+
                     default:
                         Console.WriteLine("VALOR INVALIDO");
                         break;
