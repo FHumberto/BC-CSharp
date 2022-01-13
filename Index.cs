@@ -1,4 +1,5 @@
 ﻿using BC_CSharp.Inicial;
+using BC_CSharp.Matrizes;
 using BC_CSharp.Sequencial;
 
 namespace BC_CSharp
@@ -219,6 +220,67 @@ namespace BC_CSharp
                         {
                             Console.WriteLine("\nPROBLEMA 1020 - IDADE:");
                             B1020.PMain();
+                            Repetir(0);
+                            a = Convert.ToString(Console.ReadLine()); //NULL
+                        } while (a == "S" || a == "s");
+                        break;
+
+                    case 1181:
+                        do
+                        {
+                            Console.WriteLine("\nPROBLEMA 1181 - LINHA NA MATRIZ:");
+                            B1181.PMain();
+                            Repetir(0);
+                            a = Convert.ToString(Console.ReadLine()); //NULL
+                        } while (a == "S" || a == "s");
+                        break;
+
+                    case 1182:
+                        do
+                        {
+                            Console.WriteLine("\nPROBLEMA 1182 - COLUNA NA MATRIZ:");
+                            B1182.PMain();
+                            Repetir(0);
+                            a = Convert.ToString(Console.ReadLine()); //NULL
+                        } while (a == "S" || a == "s");
+                        break;
+
+                    case 1183:
+                        do
+                        {
+                            Console.WriteLine("\nPROBLEMA 1183 - ACIMA DA DIAGONAL PRINCIPAL:");
+                            B1183.PMain();
+                            Repetir(0);
+                            a = Convert.ToString(Console.ReadLine()); //NULL
+                        } while (a == "S" || a == "s");
+                        break;
+
+
+                    case 1184:
+                        do
+                        {
+                            Console.WriteLine("\nPROBLEMA 1184 - ABAIXO DA DIAGONAL PRINCIPAL:");
+                            B1184.PMain();
+                            Repetir(0);
+                            a = Convert.ToString(Console.ReadLine()); //NULL
+                        } while (a == "S" || a == "s");
+                        break;
+
+                    case 1185:
+                        do
+                        {
+                            Console.WriteLine("\nPROBLEMA 1185 - ACIMA DA DIAGONAL SECUNDARIA:");
+                            B1185.PMain();
+                            Repetir(0);
+                            a = Convert.ToString(Console.ReadLine()); //NULL
+                        } while (a == "S" || a == "s");
+                        break;
+
+                    case 1186:
+                        do
+                        {
+                            Console.WriteLine("\nPROBLEMA 1186 - ABAIXO DA DIAGONAL SECUNDARIA:");
+                            B1186.PMain();
                             Repetir(0);
                             a = Convert.ToString(Console.ReadLine()); //NULL
                         } while (a == "S" || a == "s");
