@@ -1,5 +1,6 @@
 ﻿using BC_CSharp.Inicial;
 using BC_CSharp.Matrizes;
+using BC_CSharp.Selecao;
 using BC_CSharp.Sequencial;
 
 namespace BC_CSharp
@@ -225,6 +226,66 @@ namespace BC_CSharp
                         } while (a == "S" || a == "s");
                         break;
 
+                    case 1035:
+                        do
+                        {
+                            Console.WriteLine("\nPROBLEMA 1035 - TESTE DE SELECAO:");
+                            B1035.PMain();
+                            Repetir(0);
+                            a = Convert.ToString(Console.ReadLine()); //NULL
+                        } while (a == "S" || a == "s");
+                        break;
+
+                    case 1036:
+                        do
+                        {
+                            Console.WriteLine("\nPROBLEMA 1036 - FORMULA DE BASKARA:");
+                            B1036.PMain();
+                            Repetir(0);
+                            a = Convert.ToString(Console.ReadLine()); //NULL
+                        } while (a == "S" || a == "s");
+                        break;
+
+                    case 1037:
+                        do
+                        {
+                            Console.WriteLine("\nPROBLEMA 1037 - INTERVALO:");
+                            B1037.PMain();
+                            Repetir(0);
+                            a = Convert.ToString(Console.ReadLine()); //NULL
+                        } while (a == "S" || a == "s");
+                        break;
+
+                    case 1038:
+                        do
+                        {
+                            Console.WriteLine("\nPROBLEMA 1038 - LANCHE:");
+                            B1038.PMain();
+                            Repetir(0);
+                            a = Convert.ToString(Console.ReadLine()); //NULL
+                        } while (a == "S" || a == "s");
+                        break;
+
+                    case 1040:
+                        do
+                        {
+                            Console.WriteLine("\nPROBLEMA 1040 - MEDIA 3:");
+                            B1040.PMain();
+                            Repetir(0);
+                            a = Convert.ToString(Console.ReadLine()); //NULL
+                        } while (a == "S" || a == "s");
+                        break;
+
+                    case 1041:
+                        do
+                        {
+                            Console.WriteLine("\nPROBLEMA 1041 - COORDENADAS DE UM PONTO:");
+                            B1041.PMain();
+                            Repetir(0);
+                            a = Convert.ToString(Console.ReadLine()); //NULL
+                        } while (a == "S" || a == "s");
+                        break;
+
                     case 1181:
                         do
                         {
@@ -281,6 +342,16 @@ namespace BC_CSharp
                         {
                             Console.WriteLine("\nPROBLEMA 1186 - ABAIXO DA DIAGONAL SECUNDARIA:");
                             B1186.PMain();
+                            Repetir(0);
+                            a = Convert.ToString(Console.ReadLine()); //NULL
+                        } while (a == "S" || a == "s");
+                        break;
+
+                    case 1187:
+                        do
+                        {
+                            Console.WriteLine("\nPROBLEMA 1187 - AREA SUPERIOR:");
+                            B1187.PMain();
                             Repetir(0);
                             a = Convert.ToString(Console.ReadLine()); //NULL
                         } while (a == "S" || a == "s");
