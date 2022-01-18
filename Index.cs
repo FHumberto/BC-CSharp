@@ -286,6 +286,36 @@ namespace BC_CSharp
                         } while (a == "S" || a == "s");
                         break;
 
+                    case 1042:
+                        do
+                        {
+                            Console.WriteLine("\nPROBLEMA 1042 - SORTE SIMPLES:");
+                            B1042.PMain();
+                            Repetir(0);
+                            a = Convert.ToString(Console.ReadLine()); //NULL
+                        } while (a == "S" || a == "s");
+                        break;
+
+                    case 1049:
+                        do
+                        {
+                            Console.WriteLine("\nPROBLEMA 1049 - Animal:");
+                            B1049.PMain();
+                            Repetir(0);
+                            a = Convert.ToString(Console.ReadLine()); //NULL
+                        } while (a == "S" || a == "s");
+                        break;
+
+                    case 1050:
+                        do
+                        {
+                            Console.WriteLine("\nPROBLEMA 1050 - DDD:");
+                            B1050.PMain();
+                            Repetir(0);
+                            a = Convert.ToString(Console.ReadLine()); //NULL
+                        } while (a == "S" || a == "s");
+                        break;
+
                     case 1181:
                         do
                         {
